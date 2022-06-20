@@ -1,9 +1,9 @@
 const getAnalitics = () => {
     
-    let counter = 0;
-    let isDestroyed = false;
+    let counter:number = 0;
+    let isDestroyed:boolean = false;
 
-    const listener = () => counter++;
+    const listener = ():number => counter++;
 
     document.addEventListener("click", listener);
 
@@ -21,4 +21,4 @@ const getAnalitics = () => {
     }
 }
 
-window.analitics = getAnalitics();
+window["analitics"] = getAnalitics();

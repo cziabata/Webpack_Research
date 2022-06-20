@@ -1,0 +1,45 @@
+/*!**********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/roboto.css ***!
+  \**********************************************************************/
+@font-face {
+    font-family: "Roboto";
+    src: url(e363a5b2b3bf6f9f36c2.ttf) format("truetype");
+}
+/*!**********************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./styles/styles.css ***!
+  \**********************************************************************/
+body {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(415f6d23203dc31e65c7.png);
+    background-size: cover;
+}
+/*!*************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./styles/less.less ***!
+  \*************************************************************************************************************/
+.less {
+  color: green;
+  font-weight: 900;
+}
+
+/*!*************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles/sass.scss ***!
+  \*************************************************************************************************************/
+.sass {
+  color: yellow;
+  font-weight: 900; }
+
+
+/*# sourceMappingURL=main.css.map*/
